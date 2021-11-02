@@ -1,0 +1,108 @@
+html{
+    direction: ltr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    height: 10%;
+}
+#logo {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    line-height: auto;
+    text-align: center;
+    margin-top: 1%;
+    width: 10%;
+    height: 10%;
+    margin-right: 10%;
+}
+#search{
+    margin-top: 2.2%;
+    float: right;
+    margin-right: 1%;
+    width: 2%;
+    height: 2%;
+}
+#menu{
+    margin-right: 1%;
+    width: 2%;
+    height: 2%;
+    float: right;
+    margin-top: 2.2%;
+    
+}
+#topLinks{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: deeppink;
+    padding-right: 1%;
+}
+#headerbuttontext{
+    width: 20%;
+    height: 20%;
+}
+#headerbutton{
+    margin-top: 1.5%;
+    float: right;
+   vertical-align: middle;
+    background-color: cyan;
+    color: black;
+    border: none;
+    size: inherit;
+    
+}
+#line{
+    margin-top: 10px;
+    height: 1px;
+    background-color: black;
+}
+
+#nightpic{
+    margin-top: 10%;
+    width: 70%;
+    height: 70%;
+}
+#sitebodyimage{
+  
+    margin-left: 6%;
+}
+#sitebodytext{
+    direction: rtl;
+    text-align: right;
+    width: 70%;
+    height: 70%;
+    margin-top: 10%;
+    margin-left: 20%;
+    background-color: cyan;
+    color: black;
+}
+#maindiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+#line2{
+    margin-left: 10px;
+    margin-right:10px;
+    height: 1px;
+    background-color: white;
+}
+#sitebodytextp{
+    margin-right: 2.2%;
+}
+#matnhallowen{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+#footer{
+    margin-left: 7%;
+    margin-right: 7%;
+}
