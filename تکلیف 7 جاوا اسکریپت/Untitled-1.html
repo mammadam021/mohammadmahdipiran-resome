@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width,initila-scale=1.0">
+            <link rel="stylesheet" href="css/myCss.css" type="text/css" >
+    </head>
+    <body>
+        <div class="container">
+            <div class="item item1 header">
+                <p style="color: black; font-size: x-large; background-color: white; width: fit-content;">
+                    java script can change html content
+                </p>
+                <p style="color: black; font-size: x-large; background-color: white; width: fit-content;"
+                 id="name1">Mohammad Mahdi</p>
+                <button onclick="myFunction2()">Click To Show First-Name!</button>
+                <button onclick="myFunction1()">Click To Show Last-Name!</button>
+               
+            </div>
+            <div class="item item2 aside aside1">
+                <img style="width: 50%;" id="name2" src="pictures/pic1.jpg"></img>
+            <button onclick="changevalue1()">change the picture</button>
+            <button onclick="changevalue2()">change to the first pic</button>
+            </div>
+            <div class="item item3 main">
+
+                <p id="cssChange1" style="width: fit-content; background-color: black; color: white; font-size: x-large; font-family: Arial, Helvetica, sans-serif;" > 
+                    I want to change my css
+                </p>
+                <button onclick="cssChange1()">change the css</button>
+                <button onclick="cssChange2()">change to the first css</button>
+            </div>
+            <div class="item item4 aside aside2">
+                <p id="hide">Please Hide Me!</p>
+                <button onclick="hide()">Hide</button>
+                <button onclick="Show()">Show</button>
+            </div>
+            <div class="item item5 footer">Mohammad mahdi piran abarbekoh Responsive website</div>
+        </div>
+    </body>
+</html>
+<script>
+    function myFunction2() {
+            document.getElementById("name1").innerHTML = "Mohammad Mahdi";
+    }
+    function myFunction1() {
+            document.getElementById("name1").innerHTML = "Piran Abarbekoh";
+    }
+    function changevalue1() {
+        document.getElementById("name2").src ="pictures/pic2.jpg";
+    }
+    function changevalue2() {
+        document.getElementById("name2").src ="pictures/pic1.jpg";
+    }
+    function cssChange1() {
+        document.getElementById("cssChange1").style.color = "black";
+        document.getElementById("cssChange1").style.backgroundColor = "white";
+    }
+    function cssChange2() {
+        document.getElementById("cssChange1").style.color = "white";
+        document.getElementById("cssChange1").style.backgroundColor = "black";
+    }
+    function hide() {
+        document.getElementById("hide").style.visibility = "hidden";
+    }
+    function Show() {
+        document.getElementById("hide").style.visibility = "visible";
+    }
+    
+    </script>
