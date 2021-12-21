@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mohammad mahdi piran</title>
+        <link rel="stylesheet" href="mycss.css" type="text/css"> 
+    </head>
+    <body style="background-color: black;">
+     
+           
+            
+               <!-- <button onclick="ShowDay()"> Click Here To Get Todo's! </button> -->
+               
+
+              
+               <div class="flip">
+                <a href="" onclick="ShowDay()" >
+                    <div class="front">Click Here!</div>
+                    <div class="back">Do This!</div>
+              </a>
+            
+            
+        </div>
+    
+        
+        
+    </body>
+</html>
+<script> 
+        function ShowDay(){
+            let Day = new Date().getDay();
+            if(Day == 0)alert("yekshanbe : emrooz bayad varzesh koni!");
+            else if(Day==1) alert("2 shanbe : takalif zaban anjam shavad.");
+            else if(Day==2)alert("3 shanbe : Sar zadan be madar bozorg.");
+            else if(Day==1) alert("4 shanbe : anjam kharid haye khane");
+            else if(Day==1) alert("5 shanbe : mehmooni raftan.");
+            else if(Day==1) alert("jome : esterahate motlagh.");
+            else if(Day==1) alert("shanbe : anjam takalife baghi mande az hafte ghabl.");      
+        }
+</script>
